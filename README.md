@@ -2,8 +2,8 @@
 ![image](https://user-images.githubusercontent.com/98906212/184101072-6e1971fa-1132-4aae-8be7-d1f57804c4e9.png)
 
 
-#  A javascript timer  #
+#  <i>A JAVASCRIPT Timer</i>  #
 
 
 <b>Description:</b> <i>A javascript timer that displays the remaining days, hours, minutes and seconds until a specified date in a script.</i>
-### Check it out at - [Clock](https://latushko1.github.io/clock/) ###
+### <b>Check it out at</b> - [<i>Clock</i>](https://latushko1.github.io/clock/) ###
