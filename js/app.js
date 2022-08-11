@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const clockTime = new Date('Aug 11 2022 14:25:00');
+    const clockTime = new Date('Sep 1 2022 00:00:00');
 
     const daysVal = document.querySelector('.time-count__days .time-count__val');
     const hoursVal = document.querySelector('.time-count__hours .time-count__val');
