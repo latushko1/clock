@@ -1,0 +1,87 @@
+body{
+    background: url(/img/skyline-at-sunset.jpg) center no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.time-count{
+    background: #fff;
+    box-shadow: 4px 8px 40px rgba(7, 24, 111, 0.2);
+    border-radius: 30px;
+    padding: 73px 86px;
+}
+
+.time-count__title{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #4D4D4D;
+    transition: all .4s ease-in-out;
+}
+
+
+.time-count__title-ivent{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #0000007c;
+    transition: all .4s ease-in-out;
+}
+
+.time-count__content{
+    display: flex;
+    justify-content: center;
+}
+
+.time-count__val{
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 82px;
+    text-align: center;
+    color: #5D71DD;
+    min-width: 81px;
+}
+
+.time-count__separator{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 82px;
+    text-align: center;
+    color: #5D71DD;
+    margin: 0 43px;
+}
+
+.time-count__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.time-count__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: gray;
+}
+
