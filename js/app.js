@@ -57,10 +57,10 @@ document.addEventListener('DOMContentLoaded', () => {
             clearInterval(interval);
         }
 
-        daysText.textContent = declOfNum(days, ['день', 'дня', 'дней']);
-        hoursText.textContent = declOfNum(hourse, ['час', 'часа', 'часов']);
-        minutesText.textContent = declOfNum(minutes, ['минута', 'минуты', 'минут']);
-        secondsText.textContent = declOfNum(seconds, ['секунда', 'секунды', 'секунд']); 
+        daysText.textContent = declOfNum(days, ['День', 'Дня', 'Дней']);
+        hoursText.textContent = declOfNum(hourse, ['Час', 'Часа', 'Часов']);
+        minutesText.textContent = declOfNum(minutes, ['Минута', 'Минуты', 'Минут']);
+        secondsText.textContent = declOfNum(seconds, ['Секунда', 'Секунды', 'Секунд']); 
     }
 
     
